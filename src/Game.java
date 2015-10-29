@@ -7,7 +7,13 @@ public class Game {
 	private int inventory;
 	private int productID;
 
-	Game() {
+	Game(String title, String genre, String playForm, int inventory, int productID ) {
+
+	this.title = title;
+	this.genre = genre;
+	this.platForm = platForm;
+	this.inventory = inventory;
+	this.productID = productID;
 
 	}
 
