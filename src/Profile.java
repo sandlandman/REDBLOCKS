@@ -9,7 +9,7 @@ public class Profile {
   private int creditCard;
   
   
-    private Profile(name, userName, billingAddress, shippingAddress, email, creditCard ){
+    private Profile( String name, String userName, String  billingAddress, String shippingAddress, String email, int creditCard ){
       
       this.Name = name;
       this.userName = userName;
